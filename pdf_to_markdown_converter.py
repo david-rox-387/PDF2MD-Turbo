@@ -289,15 +289,21 @@ class PDFToMarkdownConverter:
 
         # Process pages (in parallel)
         tasks = []
-        total_page_cost = 0
-        pages_range = range(start_page, end_page + 1)
         if self.show_progress:
-            pages_range = tqdm(pages_range, desc="Processing pages")
-        for page_num in pages_range:
-            tasks.append(self._process_page(reader, page_num, final_prompt))
-        results = await asyncio.gather(*tasks)
+            with tqdm(total=end_page - start_page + 1, desc="Processing pages") as pbar:
+                async def process_page_with_progress(page_num):
+                    result = await self._process_page(reader, page_num, final_prompt)
+                    pbar.update(1)
+                    return result
+
+                tasks = [process_page_with_progress(page_num) for page_num in range(start_page, end_page + 1)]
+                results = await asyncio.gather(*tasks)
+        else:
+            tasks = [self._process_page(reader, page_num, final_prompt) for page_num in range(start_page, end_page + 1)]
+            results = await asyncio.gather(*tasks)
 
         markdown_pages = []
+        total_page_cost = 0
         for page_text, page_cost in results:
             markdown_pages.append(page_text)
             total_page_cost += page_cost
