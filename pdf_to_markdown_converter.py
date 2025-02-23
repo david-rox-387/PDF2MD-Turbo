@@ -312,7 +312,9 @@ class PDFToMarkdownConverter:
 
         if self.show_cost:
             total_cost = total_auto_cost + total_page_cost
+            pages_cost = (end_page - start_page + 1) * 0.00017  # $0.00017 per page
             self.logger.info(f"Total conversion cost: {total_cost}")
+            self.logger.info(f"Cost per page ($0.00017/page): ${pages_cost:.5f} for {end_page - start_page + 1} pages")
 
         # Output handling: if set to local or Azure, save file; otherwise return string
         if self.output_mode == "local" and self.output_path:

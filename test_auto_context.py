@@ -32,7 +32,7 @@ async def main():
     custom_context = converter.load_custom_context_from_file(custom_context_path)
 
     # Execute conversion with context loaded from file
-    markdown = await converter.convert(start_page=1, end_page=None, custom_context=custom_context)
+    markdown = await converter.convert(start_page=1, end_page=3, custom_context=custom_context)
     print("Conversion with auto-generated context completed.")
 
 if __name__ == "__main__":
