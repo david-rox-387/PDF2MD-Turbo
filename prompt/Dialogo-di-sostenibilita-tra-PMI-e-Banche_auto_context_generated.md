@@ -1,35 +1,44 @@
-```
-{file_name}: Dialogo-di-sostenibilita-tra-PMI-e-Banche.pdf
-
-1. Overall Structure and Themes:
-   - The document is a consultation paper titled "Il Dialogo di Sostenibilità tra PMI e Banche" (The Sustainability Dialogue between SMEs and Banks).
-   - It focuses on sustainability reporting and information exchange between Small and Medium Enterprises (SMEs) and banks in Italy.
-   - The main themes include:
-     - Introduction to the context of sustainability and the role of SMEs.
-     - Objectives of the document and the dialogue.
-     - Presentation of sustainability information from SMEs to banks.
-     - A methodological guide to support the communication of sustainability information.
-     - Appendices (glossary, list of activities eligible for the EU Taxonomy).
-   - Recurring elements include headings, subheadings, bullet points, numbered lists (sections), and tables.
-
-2. Formatting and Structural Observations:
-   - The document uses a table format extensively to present information on sustainability metrics, units of measure, priorities, and correspondence with EFRAG VSME ED (Exposure Draft) requirements.
-   - There are occasional formatting issues such as truncated text (e.g., "Ambient ale" on page 4).
-   - Tables and lists are present throughout the document and are not split across pages.
-
-3. Interrupted Content:
-   - There are no apparent cases of text being abruptly cut off at a page break.
-
-4. Custom Context:
-   - The document, “{file_name}: Dialogo-di-sostenibilita-tra-PMI-e-Banche.pdf”, appears to be a consultation document seeking feedback on a proposed framework for sustainability reporting by SMEs to banks.
-   - It references EU regulations (CSRD, SFDR, Taxonomy Regulation) and initiatives (EFRAG VSME ED).
-   - It’s tailored to the Italian context, referencing national strategies and organizations (e.g., OIC, SNSvS, INAIL).
-   - Pay close attention to table headers and units of measure during transcription.
-   - The document emphasizes proportionality for micro-enterprises, suggesting prioritized information sets.
-
-5. Suggestions for Transcription:
-   - Carefully transcribe the table data, paying attention to units of measure and priority levels.
-   - Ensure accurate transcription of acronyms and references to EU regulations.
-   - Maintain the document's structure by clearly marking headings, subheadings, and bullet points.
-   - When transcribing the tables, make sure the formatting is correct.
+```xml
+<context_summary>
+  <file_name>Dialogo-di-sostenibilita-tra-PMI-e-Banche.pdf</file_name>
+  <overall_structure>
+    The document is a consultation paper ("Documento di consultazione") regarding a sustainability dialogue between SMEs (PMI in Italian) and banks. It includes an introduction, sections on sustainability information from SMEs to banks, a methodological guide, and annexes. The structure is based on ESG (Environmental, Social, and Governance) criteria. There's also a glossary of terms and an overview connecting sustainability information with the Italian National Strategy for Sustainable Development (SNSvS).
+  </overall_structure>
+  <main_themes>
+    - Promoting sustainability reporting by SMEs.
+    - Facilitating information exchange between SMEs and banks regarding sustainability.
+    - Aligning SME practices with European regulatory frameworks (CSRD, SFDR, EU Taxonomy).
+    - Providing a standardized and proportional approach to sustainability assessments.
+  </main_themes>
+  <recurring_elements>
+    - Headings: Section titles (e.g., "Introduzione," "Informazioni generali"), table headings, and thematic sub-sections.
+    - Bullet points: Used for listing objectives, key aspects of sections, and action items.
+    - Numbered sections: Guide methodologies.
+    - Tables: Present information like NACE codes, energy consumption data, and sustainability metrics.
+    - Hyperlinks: included within the document which points to external resourses and pages
+  </recurring_elements>
+  <formatting_observations>
+    - The document uses a clear structure with headings and subheadings.
+    - Tables are extensively used to present specific data and metrics, including unit measures and priorities for micro-enterprises.
+    - Includes both quantitative and qualitative information requests
+  </formatting_observations>
+  <structural_irregularities>
+    - None identified
+  </structural_irregularities>
+  <interrupted_content>
+    - None identified
+  </interrupted_content>
+  <custom_observations>
+    - The document is heavily focused on providing a framework for banks to assess the sustainability of SMEs, driven by European regulations.
+    - There's an emphasis on balancing the need for comprehensive sustainability data with the practical limitations of smaller businesses.
+    - The use of tables with clear columns (Tipologia, Informazione di sostenibilità, Unità di misura, etc.) is consistent throughout, aiding in structured transcription.
+    - Note the date "Giugno 2024" on page 2 and "2 agosto 2024" on page 8; this highlights the currency and specific timeframe for feedback.
+  </custom_observations>
+  <suggestions_for_transcription>
+    - When transcribing tables, carefully preserve column headers and data alignment.
+    - Pay attention to footnotes, as they provide context and references to regulations.
+    - Ensure that the abbreviations and acronyms used are correctly transcribed as they define important concepts.
+    - Be mindful of the different priorities assigned to information requests for micro-enterprises.
+  </suggestions_for_transcription>
+</context_summary>
 ```
