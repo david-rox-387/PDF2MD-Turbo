@@ -25,7 +25,7 @@ The `PDFToMarkdownConverter` class is designed with a variety of configurable op
 
 1. Clone the repository:
    ```bash
-   git clone https://your-repo-url.git
+   git clone https://github.com/david-rox-387/PDF2MD-Turbo
    cd your-repo-directory
    ```
 2. Install the required dependencies:
