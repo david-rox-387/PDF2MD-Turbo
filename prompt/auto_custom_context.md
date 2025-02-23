@@ -20,6 +20,7 @@ Generate a concise yet comprehensive context summary that:
 <IMPORTANT>
 - The PDF content is divided using the provided page markers.
 - Ensure to clearly mention any discontinuities, e.g., "Between page 3 and page 4, a table appears to be split: the header is on page 3 and the data continues on page 4."
+- Without PDF content provided, I will analyze based on filename only. Without inventing content.
 </IMPORTANT>
 
 <note>

@@ -29,7 +29,7 @@ async def main():
     
     # Set input PDF and output - using paths relative to project root
     root_dir = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
-    pdf_path = os.path.join(root_dir, "resources", "pdf", "Dialogo-di-sostenibilita-tra-PMI-e-Banche.pdf")
+    pdf_path = os.path.join(root_dir, "resources", "pdf", "JADE_Pitch_Deck_1V17.pdf")
     output_path = os.path.join(root_dir, "output", "output_autocontext.md")
     
     converter.set_local_pdf(pdf_path)

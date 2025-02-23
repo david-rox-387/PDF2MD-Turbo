@@ -21,7 +21,23 @@ Faithfully convert the PDF page into a Markdown document, preserving the origina
    
 
 5. **Images:**  
-   - If available, use the Markdown syntax for images: `![Description](Optional-URL)`.  
+   - If available, use the Markdown syntax for images: [Image Title] followed by:
+     1. **Image Description**: A detailed description of what the image shows, including:
+        - Overall content and subject matter
+        - Any connections, arrows, or linking elements between components
+        - Direction and flow of connections (e.g., one-way arrows, bidirectional links)
+        - Meaning and significance of connections based on context
+        - Hierarchical relationships shown through connecting elements
+        - Network/graph structures if present
+     2. **Visual Elements**: List of key visual components (colors, shapes, text, etc.)
+     3. **Layout**: Description of how elements are arranged
+     4. **Context**: How the image relates to surrounding content
+     5. **Graph Analysis** (if applicable):
+        - Detailed description of data points, trends and patterns
+        - Explanation of axes, scales and units
+        - Identification of key relationships between variables
+        - Notable correlations or anomalies
+        - Description of any legends, labels or annotations
    - If the URL is unavailable, provide a detailed description of the visual content, including colors, shapes, placements, and any visible text.  
 6. **Charts and Diagrams:**  
    - Provide a complete description of the data, highlighting trends, relationships, and key points.  
