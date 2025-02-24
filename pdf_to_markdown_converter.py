@@ -47,6 +47,7 @@ class PDFToMarkdownConverter:
         self.auto_generate_context = auto_generate_context
         self.show_cost = show_cost
         self.save_auto_context = save_auto_context
+        self._auto_context = None  # Store the auto-generated context
 
         # Configure logger
         self.logger = logging.getLogger(__name__)
@@ -273,6 +274,7 @@ class PDFToMarkdownConverter:
                 page_text = page.extract_text() or ""
                 all_text += f"<START PAGE {page_num}>\n{page_text}\n<END PAGE {page_num}>\n\n"
             auto_context, auto_cost, auto_time = await self._auto_generate_context(all_text)
+            self._auto_context = auto_context  # Store the auto-generated context
             total_auto_cost += auto_cost
             total_auto_time += auto_time
 
@@ -327,3 +329,12 @@ class PDFToMarkdownConverter:
             self._upload_output_to_azure(full_markdown)
 
         return full_markdown
+
+    def get_auto_context(self) -> Optional[str]:
+        """
+        Get the auto-generated context if available.
+        
+        Returns:
+            Optional[str]: The auto-generated context if it exists, None otherwise.
+        """
+        return self._auto_context
